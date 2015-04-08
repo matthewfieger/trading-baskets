@@ -1,7 +1,18 @@
 
 Balanced Baskets: A New Approach to Trading and Hedging Risks
 ============================================================
+Authors: David H. Bailey and Marcos Lopez de Prado
+Journal of Investment Strategies (Risk Journals), Vol.1(4), Fall 2012
 
+Abstract
+--------
+A basket is a set of instruments that are held together because its statistical profile delivers a desired goal, such as hedging or trading, which cannot be achieved through the individual constituents or even subsets of them. Multiple procedures have been proposed to compute hedging and trading baskets, among which balanced baskets have attracted significant attention in recent years. Unlike Principal Component Analysis (PCA) style of methods, balanced baskets spread risk or exposure across their constituents without requiring a change of basis. Practitioners typically prefer balanced baskets because their output can be understood in the same terms for which they have developed an intuition.
+
+We review three methodologies for determining balanced baskets, analyze the features of their respective solutions and provide Python code for their calculation. We also introduce a new method for reducing the dimension of a covariance matrix, called Covariance Clustering, which addresses the problem of numerical ill-conditioning without requiring a change of basis.
+
+
+ERC Results
+-----------
 	##### SOLUTION 1 #####
 	##### Holdings #####
 	[[ 1.        ]
@@ -39,4 +50,6 @@ Balanced Baskets: A New Approach to Trading and Hedging Risks
 	RMSD=9.82894797621e-06
 	#Iter=709
 
+Source
+------
 Bailey, David H. and Lopez de Prado, Marcos, Balanced Baskets: A New Approach to Trading and Hedging Risks (May 24, 2012). Journal of Investment Strategies (Risk Journals), Vol.1(4), Fall 2012. Available at SSRN: http://ssrn.com/abstract=2066170 or http://dx.doi.org/10.2139/ssrn.2066170

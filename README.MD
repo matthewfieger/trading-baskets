@@ -2,7 +2,6 @@
 Balanced Baskets: A New Approach to Trading and Hedging Risks
 ============================================================
 
-	'''
 	##### SOLUTION 1 #####
 	##### Holdings #####
 	[[ 1.        ]
@@ -39,6 +38,5 @@ Balanced Baskets: A New Approach to Trading and Hedging Risks
 	##### Stats #####
 	RMSD=9.82894797621e-06
 	#Iter=709
-	'''
 
 Bailey, David H. and Lopez de Prado, Marcos, Balanced Baskets: A New Approach to Trading and Hedging Risks (May 24, 2012). Journal of Investment Strategies (Risk Journals), Vol.1(4), Fall 2012. Available at SSRN: http://ssrn.com/abstract=2066170 or http://dx.doi.org/10.2139/ssrn.2066170

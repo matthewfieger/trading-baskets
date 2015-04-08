@@ -49,6 +49,43 @@ ERC Results
 	RMSD=9.82894797621e-06
 	#Iter=709
 
+MMSC Results
+------------
+	##### SOLUTION 1 #####
+	##### Holdings #####
+	0
+	##### Subset Correl #####
+	(0, 0)
+	##### Stats #####
+	RMSD=0
+	#Iter=0
+	##### SOLUTION 2 #####
+	##### Holdings #####
+	0
+	##### Subset Correl #####
+	(0, 0)
+	##### Stats #####
+	RMSD=0
+	#Iter=0
+	##### SOLUTION 3 #####
+	##### Holdings #####
+	0
+	##### Subset Correl #####
+	(0, 0)
+	##### Stats #####
+	RMSD=0
+	#Iter=0
+
+
+PCA Results
+-----------
+	(2, 2)
+	[[  846960.80535197   918989.95960496]
+	 [  918989.95960496  1144643.45911279]]
+	[29.717147810636636]
+	[0, [1, 2]]
+
+
 Source
 ------
 Bailey, David H. and Lopez de Prado, Marcos, Balanced Baskets: A New Approach to Trading and Hedging Risks (May 24, 2012). Journal of Investment Strategies (Risk Journals), Vol.1(4), Fall 2012. Available at SSRN: http://ssrn.com/abstract=2066170 or http://dx.doi.org/10.2139/ssrn.2066170

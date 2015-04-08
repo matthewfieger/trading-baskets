@@ -98,10 +98,11 @@ def main():
 	#0) Parameters
 	minSize=2
 	#1) Load the covariance matrix
-	cov=np.genfromtxt(path,delimiter=',') # numpy array #2) Cluster
+	cov=np.genfromtxt(path,delimiter=',') # numpy array
+	#2) Cluster
 	cluster=ClusterCov(cov,minSize)
 	cluster.solve()
-	3#) Report results
+	#3) Report results #####MTF was this a syntax error by original authors?
 	print cluster.cov.shape
 	print cluster.cov
 	print cluster.cn

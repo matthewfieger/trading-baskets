@@ -1,9 +1,7 @@
 
 Balanced Baskets: A New Approach to Trading and Hedging Risks
 ============================================================
-David H. Bailey and Marcos Lopez de Prado
-
-Journal of Investment Strategies (Risk Journals), Vol.1(4), Fall 2012
+David H. Bailey and Marcos Lopez de Prado, Journal of Investment Strategies (Risk Journals), Vol.1(4), Fall 2012
 
 Abstract
 --------

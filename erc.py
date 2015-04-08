@@ -82,8 +82,8 @@ def main():
 	#1) Inputs (covariance, optional seed) --- to be changed by the user
 	precision=5
 	covar=np.matrix('846960.805351971,515812.899769821,403177.059835136; \
-		515812.899769821,351407.396443653,280150.614979364; \
-		403177.059835136,280150.614979364,232934.832710412')
+					515812.899769821,351407.396443653,280150.614979364; \
+					403177.059835136,280150.614979364,232934.832710412')
 	#seed=np.mat(np.ones((covar.shape[0],1))) #--- If a vector of ones is used as seed
 	#2) Instantiate class
 	erc=ERC(covar)

@@ -9,11 +9,11 @@ from scipy import delete
 #-------------------------------------------
 class ClusterCov:
 	def __init__(self,cov,minSize):
-	# Class constructor
-	self.cov=cov
-	self.minSize=minSize
-	self.cn=[]
-	self.clusters=[]
+		# Class constructor
+		self.cov=cov
+		self.minSize=minSize
+		self.cn=[]
+		self.clusters=[]
 #-------------------------------------------
 	def solve(self,clusterSize=2):
 		# Determine the optimal clustering of the covariance matrix

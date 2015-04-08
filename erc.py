@@ -33,7 +33,8 @@ class ERC:
 				err[i]=1./n-ctr[i]
 				tErr+=err[i]**2
 				# Determine which leg to change
-				if abs(err[i])>abs(mErr): mErr=err[i]
+				if abs(err[i])>abs(mErr):
+					mErr=err[i]
 					iErr=i
 			#3) Exit conditions
 			tErr=(tErr/n)**.5 # Root mean squared deviation
@@ -52,10 +53,10 @@ class ERC:
 					delta=(-grad[1]+delta)/(2.*grad[2])
 				else:
 					delta=(-grad[1]-delta)/(2.*grad[2])
-		￼￼￼￼￼	else:
-					delta=-grad[0]/grad[1]
-				w[iErr,0]+=delta
-				self.weights,self.ctr,self.ctb,self.tErr,self.iter=w,ctr,ctb,tErr,iter
+			else:
+				delta=-grad[0]/grad[1]
+			w[iErr,0]+=delta
+		self.weights,self.ctr,self.ctb,self.tErr,self.iter=w,ctr,ctb,tErr,iter
 #-------------------------------------------
 	def get_Seed(self,col):
 		# Seeds for hedging basket, based on alternating OLS holdings
@@ -104,4 +105,3 @@ def main():
 #-------------------------------------------
 # Boilerplate
 if __name__=='__main__': main()
-￼￼
